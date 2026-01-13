@@ -1,4 +1,5 @@
-//Basic Data Type
+{
+    //Basic Data Type
 
 // String
 
@@ -36,3 +37,4 @@ let coordinates : [number,number] = [3,7];
 
 
 let ageName : [number ,string] = [34,"mokbul"]
+}

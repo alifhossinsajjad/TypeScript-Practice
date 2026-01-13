@@ -1,1 +1,3 @@
-let test = "i am testingd";
+{
+    let test = "i am testingd";
+}

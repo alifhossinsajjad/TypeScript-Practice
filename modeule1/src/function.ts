@@ -1,4 +1,5 @@
-//learning function 
+{
+    //learning function 
 //normal function 
 // arrow function 
 
@@ -33,3 +34,4 @@ const newArr: number[] = arr.map((e: number) => e * e)
 
 
 console.log(newArr);
+}

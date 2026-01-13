@@ -1,4 +1,5 @@
-//Reference Type -----------> Object
+{
+    //Reference Type -----------> Object
 
 const user: {
     readonly company: string; //type --------> literal types
@@ -11,4 +12,5 @@ const user: {
     fristName: "alif ",
     lastName: "mia",
     isMarried: false
+}
 }
