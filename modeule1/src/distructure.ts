@@ -9,7 +9,7 @@ const user = {
     contactNom: "018234874",
 }
 
-const { contactNom, name: { fristName } } = user
+const { contactNom, name: { fristName : sureName /* -----> it is called name alias*/ } } = user
 
 
 //array destructure 
