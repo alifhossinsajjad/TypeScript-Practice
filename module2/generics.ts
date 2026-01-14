@@ -23,7 +23,17 @@
 
 
 
-    const user: GenericArray<{ name: string, age: number }> = [
+
+    
+    interface User {
+        name: string,
+        age: number
+    }
+
+
+
+
+    const user: GenericArray<User> = [
         {
             name: "alif mia",
             age: 22,
@@ -33,11 +43,6 @@
             age: 23
         }
     ]
-
-
-
-
-
 
 
 
