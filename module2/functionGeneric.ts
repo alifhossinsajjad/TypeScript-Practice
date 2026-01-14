@@ -48,10 +48,21 @@
         }
 
 
-        const student1 = studentDetails({ name: "tomy", email: "tomy@gmial.com", class: 10, group: "scrience" })
+        const student1 = studentDetails({
+            id: 101,
+            name: "tomy",
+            email: "tomy@gmial.com",
+            class: 10,
+            group: "scrience"
+        })
 
 
-        const student2 = studentDetails({ name: "Cris", email: "cris@gmial.com", class: 7, })
+        const student2 = studentDetails({
+            id: 102,
+            name: "Cris",
+            email: "cris@gmial.com",
+            class: 7,
+        })
 
     }
 
