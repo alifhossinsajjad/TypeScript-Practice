@@ -25,6 +25,7 @@
     const result1 = kgToGm(2000) as number
     const result2 = kgToGm(243)
 
+    console.log(result1);
 
 
     type CustomError = {
