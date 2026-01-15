@@ -28,7 +28,7 @@ const employee1 = {
     name: "ALif",
     address: {
         city: "Dahaka",
-        // zipCode: "1310-dhaka"
+        zipCode: "1310-dhaka"
     }
 
 }
