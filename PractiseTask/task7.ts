@@ -9,12 +9,12 @@ Return the length if the input is a string.
 Return the square if the input is a number. */
 
 
-function processInput (inp : string | number) : number {
-if(typeof inp === "string") {
-    return inp.length
-}else{
-    return inp *inp
-}
+function processInput(inp: string | number): number {
+    if (typeof inp === "string") {
+        return inp.length
+    } else {
+        return inp * inp
+    }
 }
 
 
