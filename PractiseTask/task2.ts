@@ -1,0 +1,26 @@
+// Task 2: Functions, Optional, and Literal Types
+// Objective: Create a function with parameters and an optional literal type.
+
+// Instructions:
+
+// Define a function that takes:
+// name (string)
+// age (number)
+// role (optional, with type 'admin' | 'user' | 'guest')
+// The function should log these values or perform a basic action.
+
+
+
+
+type UserRole = "Admin" | "User" | "guest";
+
+
+function user(name: string, age: number, role?: UserRole): void {
+    console.log(`Name : ${name}, Age : ${age}, Role : ${role}`);
+
+}
+
+user("Alif mia", 23, "Admin")
+
+
+
