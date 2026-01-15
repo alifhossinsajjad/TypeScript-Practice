@@ -11,8 +11,8 @@ Use keyof to constrain the key to valid properties of the object. */
 
 
 
-function getValue<T, X extends keyof T>(boj: T key: X) {
-    return obj[key]
+function getValue<T, X extends keyof T>(obj: T, key: X) {
+    return obj[key];
 }
 
 
